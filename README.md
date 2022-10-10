@@ -24,24 +24,10 @@ A[Hard edge] -->B(Round edge)
     C -->|Two| E[Result two]
 ```
 
-@startmermaid
-pie title Pets adopted by volunteers
-  "Dogs" : 386
-  "Cats" : 85
-  "Rats" : 35
-@endmermaid
-
-
-<!DOCTYPE html>
 <html lang="en">
    <head>
 	 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
-    </head>
-	 
-<body>
- <pre><code class="language-mermaid">graph LR
-A--&gt;B
-</code></pre>
+   </head>
 
 <div class="mermaid">graph LR
 A--&gt;B
@@ -51,7 +37,7 @@ A--&gt;B
 <script>
 var config = {
     startOnLoad:true,
-    theme: 'forest',
+    theme: 'default'
     flowchart:{
             useMaxWidth:false,
             htmlLabels:true

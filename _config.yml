@@ -2,4 +2,5 @@ theme: jekyll-theme-Minimal
 title: Variational AutoEncoders
 description: Dunno what description
 
-
+github:
+  is_project_page: false

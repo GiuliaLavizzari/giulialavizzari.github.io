@@ -23,3 +23,10 @@ A[Hard edge] -->B(Round edge)
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
 ```
+
+@startmermaid
+pie title Pets adopted by volunteers
+  "Dogs" : 386
+  "Cats" : 85
+  "Rats" : 35
+@endmermaid

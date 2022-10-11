@@ -19,7 +19,7 @@ This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which m
 <img src="./docs/assets/images/chapter_vaes.svg" alt="ch2">
 ## Variational AutoEncoders (VAEs)
 **VAEs are trained to reconstruct an input**: the input is mapped as a distribution in the latent space, from which a point is sampled an decoded.  
-The model is trained minimizing:
+The model is trained minimizing two loss functions:
 - **Kullback-Leibler divergence** (KLD) - regularization of the latent space
 - **Mean Squared Error** (MSE) - reconstruction of the input
 

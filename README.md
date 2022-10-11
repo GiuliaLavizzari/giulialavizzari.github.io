@@ -1,11 +1,11 @@
 <img src="./docs/assets/images/theoretical_framework.svg" alt="ch1">
 
 ## Vector Boson Scattering (VBS)
-VBS takes place when quarks from different protons radiate vector bosons, which in turn interact.
-It is an ideal place for searches for new physics because it is **sensitive to modifications of the EWK sector**.
-### Same Sign WW scattering:
-We used MC generations @LO, @parton-level of SSWW scattering with fully leptonic final state:
+VBS takes place when quarks from different protons radiate vector bosons, which in turn interact:
+- It is an ideal place for searches for new physics because it is **sensitive to modifications of the EWK sector**.
+- We used MC generations @LO, @parton-level of **Same Sign WW scattering(SSWW)** with fully leptonic final state:
 
+<img src="./docs/assets/images/ssww.png" alt="ssww">
 <img src="./docs/assets/images/feynman.svg" alt="feynman">
 
 ## SM Effective Field Theories (SMEFT)

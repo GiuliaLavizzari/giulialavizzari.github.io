@@ -13,13 +13,8 @@ The SM is seen as a **low energy approximation of an unknown theory** and BSM ef
 
 <img src="./docs/assets/images/LEFT.svg" alt="LEFT">
 
-This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis
-### detecting EFT contributions as anomalies:
-The EFT operators modify the distributions of the variables, that now comprise:
-- A pure SM contribution
-- Additional terms with linear and quadratic dependence on the EFT operator considered
-  
-<img src="./docs/assets/images/EFTcontrib.svg" alt="EFTcontrib">
+This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which modify the distributions of the variables as follows:
+<img src="./docs/assets/images/EFTcontrib.png" alt="EFTcontrib">
 
 
 <img src="./docs/assets/images/chapter_vaes.svg" alt="ch2">

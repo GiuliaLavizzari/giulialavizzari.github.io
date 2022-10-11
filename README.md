@@ -34,5 +34,13 @@ Therefore, **anomalies are expected to lie in the tail of the loss function**:
 
 <img src="./docs/assets/images/chapter_boh.svg" alt="ch3">
 ## Optimizing for discrimination: VAE + DNN
+Even though the ultimate aim is isolating EFT contributions, **the VAE model is solely trained to recontruct a SM sample**. However, the choices that improve SM reconstruction are not always optimal for discrimination (e.g. dimension of the latent space):
+<img src="./docs/assets/images/dim753.png" alt="dim753">
 
-
+### A new model: VAE + DNN classifier
+We built a model that optimizes both reconstruction and discrimination during training:
+<img src="./docs/assets/images/full_model.png" alt="full_model">
+This model is trained my minimizing:
+- KLD (regularization)
+- MSE (reconstruction)
+- **Binary cross-entropy** (discrimination)

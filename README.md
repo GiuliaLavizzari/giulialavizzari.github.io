@@ -6,7 +6,7 @@ VBS takes place when quarks from different protons radiate vector bosons, which 
 
 <img src="./docs/assets/images/ssww.png" alt="ssww">
 <img src="./docs/assets/images/feynman.svg" alt="feynman">
-
+    
 <img src="./docs/assets/images/ch2.png" alt="ch2"> 
 The SM is seen as a **low energy approximation of an unknown theory** and BSM effects are parametrized as additional terms to the SM lagrangian through operators of order larger than four:
 
@@ -15,9 +15,8 @@ The SM is seen as a **low energy approximation of an unknown theory** and BSM ef
 This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which modify the distributions of the variables as follows:
 <img src="./docs/assets/images/EFTcontrib.png" alt="EFTcontrib">
 
-
+    
 <img src="./docs/assets/images/ch3.png" alt="ch3"> 
-
 **VAEs are trained to reconstruct an input**: the input is mapped as a distribution in the latent space, from which a point is sampled an decoded.  
 The model is trained minimizing two loss functions:
 - **Kullback-Leibler divergence** (KLD) - regularization of the latent space
@@ -31,9 +30,8 @@ The VAE model is **trained to reconstruct a sample that comprises SM events**. W
 
 Therefore, **anomalies are expected to lie in the tail of the loss function**:
 <img src="./docs/assets/images/lossAD.png" alt="lossAD">
-
+    
 <img src="./docs/assets/images/ch4.png" alt="ch4"> 
-
 Even though the ultimate aim is isolating EFT contributions, **the VAE model is solely trained to recontruct a SM sample**. However, the choices that improve SM reconstruction are not always optimal for discrimination (e.g. dimension of the latent space)
 
 ## A new model: VAE + DNN classifier
@@ -50,9 +48,8 @@ The model is trained on **a pure SM sample** and on **EFT contributions from a s
 - Some operators do not allow for discrimination (the shape of the distributions are similar to that of the SM)
      
 <img src="./docs/assets/images/out_result.png" alt="out_result"> 
-
+    
 <img src="./docs/assets/images/ch5.png" alt="ch5"> 
-
 <img src="./docs/assets/images/sigmamax.png" alt="sigmamax"> 
 <img src="./docs/assets/images/cop.png" alt="cop"> 
 

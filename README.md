@@ -26,6 +26,8 @@ The model is trained minimizing two loss functions:
 <img src="./docs/assets/images/vae_mechanism.png" alt="vae_mechanism">
 
 ### Anomaly detection:
+The VAE model is **trained to reconstruct a sample that comprises SM events**. When it is fed anomalous data (EFT events) those are badly reconstructed and can be found in the tails of the loss function and singled out: **anomalies are expected to lie in the tail fo the loss function**
+<img src="./docs/assets/images/lossAD.png" alt="lossAD">
 
 <img src="./docs/assets/images/chapter_boh.svg" alt="ch3">
 ## Optimizing for discrimination: VAE + DNN

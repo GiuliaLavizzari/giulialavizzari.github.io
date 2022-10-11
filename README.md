@@ -49,7 +49,7 @@ The model is trained on **a pure SM sample** and on **EFT contributions from a s
 - SM events are still reconstructed better than EFT events 
 - The discrimination is best for the operator the model was trained on
 - Some operators do not allow for discrimination (the shape of the distributions are similar to that of the SM)
-   
+     
 <img src="./docs/assets/images/out_result.png" alt="out_result"> 
 
 

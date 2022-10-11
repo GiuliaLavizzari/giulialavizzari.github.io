@@ -22,7 +22,9 @@ This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which m
 The model is trained minimizing:
 - **Kullback-Leibler divergence** (KLD) - regularization of the latent space
 - **Mean Squared Error** (MSE) - reconstruction of the input
+
 <img src="./docs/assets/images/vae_mechanism.png" alt="vae_mechanism">
+
 ### Anomaly detection:
 
 <img src="./docs/assets/images/chapter_boh.svg" alt="ch3">

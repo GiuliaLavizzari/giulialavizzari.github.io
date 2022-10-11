@@ -29,7 +29,7 @@ The model is trained minimizing two loss functions:
 The VAE model is **trained to reconstruct a sample that comprises SM events**. When it is fed anomalous data (EFT events), those are badly reconstructed and can be singled out:
 <img src="./docs/assets/images/inout.png" alt="inout">
 
-Therefore,**anomalies are expected to lie in the tail fo the loss function**
+Therefore, **anomalies are expected to lie in the tail of the loss function**:
 <img src="./docs/assets/images/lossAD.png" alt="lossAD">
 
 <img src="./docs/assets/images/chapter_boh.svg" alt="ch3">

@@ -57,9 +57,10 @@ The optputs we obtained are the following:
 To assess whether a model is able to discriminate between SM and BSM events we defind the significance as:
 <img src="./docs/assets/images/sigma.png" alt="sigma">
   
-Here we show the results for sigmamax $\sigma_{max}(c_{W}) = \max_{k}{\{\sigma(k,c_{W})\}}$ against $c_{W}$:
+Here we show the results for sigmamax:
+<img src="./docs/assets/images/sigma_def.png" alt="sigma_def">
 <img src="./docs/assets/images/sigmamax.png" alt="sigmamax"> 
   
-We call a model sensitive to an operator if $\sigma_{max} \geq 3$. The values of $c_{op}$ such that $\sigma_{max}(c_{op}) = 3 $ for different operators:
+We call a model sensitive to an operator if the significance reaches at least 3:
 <img src="./docs/assets/images/cop.png" alt="cop"> 
 

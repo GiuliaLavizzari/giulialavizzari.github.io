@@ -5,12 +5,12 @@ VBS takes place when quarks from different protons radiate vector bosons, which 
 - We used MC generations @LO, @parton-level of **Same Sign WW scattering(SSWW)** with fully leptonic final state:
 
 <img src="./docs/assets/images/ssww.png" alt="ssww">
-<img src="./docs/assets/images/feynman.svg" alt="feynman">
+<img src="./docs/assets/images/feynman.png" alt="feynman">
     
 <img src="./docs/assets/images/ch2.png" alt="ch2"> 
 The SM is seen as a **low energy approximation of an unknown theory** and BSM effects are parametrized as additional terms to the SM lagrangian through operators of order larger than four:
 
-<img src="./docs/assets/images/LEFT.svg" alt="LEFT">
+<img src="./docs/assets/images/LEFT.png" alt="LEFT">
 
 This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which modify the decay amplitudes (and therefore the distributions of the variables) as follows:
 <img src="./docs/assets/images/EFTcontrib.png" alt="EFTcontrib">
@@ -32,24 +32,34 @@ Therefore, **anomalies are expected to lie in the tail of the loss function**:
 <img src="./docs/assets/images/lossAD.png" alt="lossAD">
     
 <img src="./docs/assets/images/ch4.png" alt="ch4"> 
-Even though the ultimate aim is isolating EFT contributions, **the VAE model is solely trained to recontruct a SM sample**. However, the choices that improve SM reconstruction are not always optimal for discrimination (e.g. dimension of the latent space)
+## Simple VAE
+- built via subclassing on TensorFlow and Keras libraries
+- deeply connected NN layers
+- optimizer: Adam
+- Epochs: up to 200 (convergence $\simeq$ 100)
+- Batch size: 32/64
+- Different dimensions of the latent space  
+<img src="./docs/assets/images/simple_vae.png" alt="simple_vae">
 
-## A new model: VAE + DNN classifier
-We built a model that optimizes both reconstruction and discrimination during training:
+
+## VAE + DNN binary classifier
+Even though the ultimate aim is isolating EFT contributions, **the VAE model is solely trained to recontruct a SM sample**. However, the choices that improve SM reconstruction are not always optimal for discrimination (e.g. dimension of the latent space).  
+Therefore, we built a model that optimizes both reconstruction and discrimination during training:
 <img src="./docs/assets/images/full_model.png" alt="full_model">  
-The model is trained on **a pure SM sample** and on **EFT contributions from a single operator**, by minimizing the following losses:
-- KLD (regularization)
-- MSE (reconstruction)
-- **Binary cross-entropy** (discrimination)
-
-## Results:
-- SM events are still reconstructed better than EFT events 
-- The discrimination is best for the operator the model was trained on
-- Some operators do not allow for discrimination (the shape of the distributions are similar to that of the SM)
-     
+- the **VAE** part is trained to reconstruct **a pure SM sample**
+- the classifier is trained to discriminate between **SM and EFT contributions from a single operator**, based on the VAE output
+- Losses: MSE, KLD, **binary cross entropy** (for classification)
+  
+The optputs we obtained are the following:
 <img src="./docs/assets/images/out_result.png" alt="out_result"> 
     
-<img src="./docs/assets/images/ch5.png" alt="ch5"> 
+<img src="./docs/assets/images/ch5.png" alt="ch5">
+To assess whether a model is able to discriminate between SM and BSM events we defind the significance as:
+<img src="./docs/assets/images/sigma.png" alt="sigma">
+  
+Here we show the results for sigmamax $\sigma_{max}(c_{W}) = \max_{k}{\{\sigma(k,c_{W})\}}$ against $c_{W}$:
 <img src="./docs/assets/images/sigmamax.png" alt="sigmamax"> 
+  
+We call a model sensitive to an operator if $\sigma_{max} \geq 3$. The values of $c_{op}$ such that $\sigma_{max}(c_{op}) = 3 $ for different operators:
 <img src="./docs/assets/images/cop.png" alt="cop"> 
 

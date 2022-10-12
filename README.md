@@ -12,7 +12,7 @@ The SM is seen as a **low energy approximation of an unknown theory** and BSM ef
 
 <img src="./docs/assets/images/LEFT.svg" alt="LEFT">
 
-This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which modify the distributions of the variables as follows:
+This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which modify the decay amplitudes (and therefore the distributions of the variables) as follows:
 <img src="./docs/assets/images/EFTcontrib.png" alt="EFTcontrib">
 
     

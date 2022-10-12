@@ -38,7 +38,8 @@ Therefore, **anomalies are expected to lie in the tail of the loss function**:
 - optimizer: Adam
 - Epochs: up to 200 (convergence $\simeq$ 100)
 - Batch size: 32/64
-- Different dimensions of the latent space  
+- Different dimensions of the latent space
+  
 <img src="./docs/assets/images/simple_vae.png" alt="simple_vae">
 
 

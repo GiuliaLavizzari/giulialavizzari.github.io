@@ -47,7 +47,7 @@ Even though the ultimate aim is isolating EFT contributions, **the VAE model is 
 Therefore, we built a model that optimizes both reconstruction and discrimination during training:
 <img src="./docs/assets/images/full_model.png" alt="full_model">  
 - the **VAE** part is trained to reconstruct **a pure SM sample**
-- the classifier is trained to discriminate between **SM and EFT contributions from a single operator**, based on the VAE output
+- the **classifier** is trained to discriminate between **SM and EFT contributions from a single operator**, based on the VAE output
 - Losses: MSE, KLD, **binary cross entropy** (for classification)
   
 The optputs we obtained are the following:

@@ -1,3 +1,5 @@
+Giacomo Boldrini, Simone Gennai, Pietro Govoni, **Giulia Lavizzari**
+<img src="./docs/assets/images/logos.png" alt="logos"> 
 
 <img src="./docs/assets/images/ch1.png" alt="ch1"> 
 VBS takes place when quarks from different protons radiate vector bosons, which in turn interact:

@@ -66,4 +66,4 @@ Here we show the results for sigmamax:
   
 We call a model sensitive to an operator if the significance reaches at least 3:
 <img src="./docs/assets/images/cop.png" alt="cop"> 
-
+The performances of the VAE+DNN model are overall better than those obtained with the simple VAE. The greatest gain is achieved for the operator on which the model was trained on (cW in the example), the sensitivity improves also for the others.  

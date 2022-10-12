@@ -1,5 +1,5 @@
 theme: jekyll-theme-Minimal
-title: VAEs for anomaly detection in VBS with EFTs
+title: Variational AutoEncoders for anomaly detection in VBS with EFTs
 description: Using Variational AutoEncoders (VAEs) to detect anomalies in Vector Boson Scattering (VBS) events, in an agnostic manner with respect to the BSM theory assumed. The new physics is modeled within an Effective Field Theory (EFT) framework, in which BSM contributions are obtained adding higher dimensional terms to the SM lagrangian.
 
 github:

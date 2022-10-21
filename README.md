@@ -58,7 +58,7 @@ Therefore, we built a model that optimizes both reconstruction and discriminatio
 - the **classifier** is trained to discriminate between **SM and EFT contributions from a single operator**, based on the VAE output
 - Losses: MSE, KLD, **binary cross entropy** (for classification)
   
-The optputs we obtained are the following:
+The outputs we obtained are the following:
 <img src="./docs/assets/images/out_result.png" alt="out_result"> 
     
 <img src="./docs/assets/images/ch5.png" alt="ch5">

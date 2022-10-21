@@ -4,6 +4,7 @@ Giacomo Boldrini<sup>1,2</sup>, Simone Gennai<sup>1,2</sup>, Pietro Govoni<sup>1
 <sub>1 - Milano Bicocca University, Piazza della Scienza 3, 20126 Milano, Italy</sub>  
 <sub>2 - INFN Milano - Bicocca, Piazza della Scienza 3, 20126 Milano, Italy</sub>  
 
+
 <img src="./docs/assets/images/ch1.png" alt="ch1"> 
 VBS takes place when quarks from different protons radiate vector bosons, which in turn interact:
 - It is an ideal place for searches for new physics because it is **sensitive to modifications of the electroweak (EW) sector**.

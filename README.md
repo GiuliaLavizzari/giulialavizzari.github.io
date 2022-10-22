@@ -1,5 +1,5 @@
 <img src="./docs/assets/images/logos.png" alt="logos"> 
-Giacomo Boldrini<sup>1,2</sup>, Simone Gennai<sup>1,2</sup>, Pietro Govoni<sup>1,2</sup>, **Giulia Lavizzari** <sup>1,2</sup> (g.lavizzari1@campus.unimib.it)
+Giacomo Boldrini<sup>1,2</sup>, Simone Gennai<sup>2</sup>, Pietro Govoni<sup>1,2</sup>, **Giulia Lavizzari** <sup>1,2</sup> (g.lavizzari1@campus.unimib.it)
 
 <sub>1 - Milano Bicocca University, Piazza della Scienza 3, 20126 Milano, Italy</sub>  
 <sub>2 - INFN Milano - Bicocca, Piazza della Scienza 3, 20126 Milano, Italy</sub>  

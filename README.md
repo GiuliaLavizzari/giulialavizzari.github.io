@@ -7,7 +7,7 @@ Giacomo Boldrini<sup>1,2</sup>, Simone Gennai<sup>1,2</sup>, Pietro Govoni<sup>1
 
 <img src="./docs/assets/images/ch1.png" alt="ch1"> 
 VBS takes place when quarks from different protons radiate vector bosons, which in turn interact:
-- It is an ideal place for searches for new physics because it is **sensitive to modifications of the electroweak (EW) sector**.
+- It is an ideal place for searches for new physics because it is **sensitive to modifications of the electroweak (EW) sector**
 - At Leading Order (LO) it is a purely EW process
 - We used MC generations @LO, @parton-level of **Same Sign WW scattering(SSWW)** with fully leptonic final state:
 
@@ -15,11 +15,11 @@ VBS takes place when quarks from different protons radiate vector bosons, which 
 <img src="./docs/assets/images/feynman.png" alt="feynman">
     
 <img src="./docs/assets/images/ch2.png" alt="ch2"> 
-The SM is seen as a **low energy approximation of an unknown theory** and BSM effects are parametrized as additional terms to the SM lagrangian through operators of order larger than four:
+The SM is seen as a **low energy approximation of an unknown theory**, and BSM effects are parametrized as additional terms to the SM lagrangian through operators of order larger than four:
 
 <img src="./docs/assets/images/LEFT.png" alt="LEFT">
 
-This stuy is focused on 15 dim 6 operators chosen from the Warsaw Basis, which modify the decay amplitudes (and therefore the distributions of the variables) as follows:
+This stuy is focused on dimension 6 operators chosen from the Warsaw Basis, which modify the decay amplitudes (and therefore the distributions of the variables) as follows:
 <img src="./docs/assets/images/EFTcontrib.png" alt="EFTcontrib">
 
     
@@ -40,10 +40,11 @@ Therefore, **anomalies are expected to lie in the tail of the loss function**:
     
 <img src="./docs/assets/images/ch4.png" alt="ch4"> 
 ## Simple VAE
+The first model we employed is a simple VAE:
 - built via subclassing on TensorFlow and Keras libraries
 - deeply connected NN layers
 - optimizer: Adam
-- Epochs: up to 200 (convergence $\simeq$ 100)
+- Epochs: up to 200 (convergence around 100 epochs)
 - Batch size: 32/64
 - Different dimensions of the latent space
   
@@ -71,4 +72,4 @@ Here we show the results for sigmamax:
   
 We call a model sensitive to an operator if the significance reaches at least 3:
 <img src="./docs/assets/images/cop.png" alt="cop"> 
-The performances of the VAE+DNN model are overall better than those obtained with the simple VAE. The greatest gain in sensitivity is achieved for the operator on which the model was trained (cW in the example), but an improvement is seen also for other operators (to the point of gaining sensitivity on operators that could not be singled out with the simple VAE e.g. cHq1).  
+The performances of the VAE+DNN model are overall better than those obtained with the simple VAE. The greatest gain in sensitivity is achieved for the operator on which the model was trained (cW in the example), but an improvement is seen also for other operators (to the point of gaining sensitivity on operators that could not be singled out with the simple VAE, e.g. cHq1).  

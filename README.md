@@ -1,3 +1,6 @@
+# My work
+The vast majority of my work is hosted on CERN GitLab: [visit my profile there](https://gitlab.cern.ch/glavizza)
+
 # Conferences
 
 ### \[CMS Internal\] pre-approval talk @ SMP General meeting 

@@ -26,7 +26,8 @@ Barrel Calorimeters Upgrade status report [link](https://indico.cern.ch/event/14
 
 
 # Papers and proceedings
-### submitted proceeding: Upgrade of the CMS Electromagnetic Calorimeter for the High-Luminosity LHC, Submitted to the International Journal of Modern Physics: Conference Series
+### submitted proceeding: Upgrade of the CMS Electromagnetic Calorimeter for the High-Luminosity LHC
+Submitted to the International Journal of Modern Physics: Conference Series
 
 ### joined effort for ESU: Highlights of the HL-LHC physics projections by ATLAS and CMS, 
 Submitted to European Physical Journal C [link](https://arxiv.org/pdf/2504.00672) [CMS-HIG-25-002](https://cms.cern.ch/iCMS/analysisadmin/cadilines?line=HIG-25-002&tp=an&id=2965&ancode=HIG-25-002)

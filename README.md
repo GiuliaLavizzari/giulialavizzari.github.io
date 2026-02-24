@@ -1,6 +1,17 @@
 # My work
 The vast majority of my work is hosted on CERN GitLab: [visit my profile there](https://gitlab.cern.ch/glavizza)
 
+# Lectures & outreach activities
+
+### Lectures to High School students
+Part of a cycle of lectures for the course “ConCERN - Orientarsi con AstroPlano nel mondo della ricerca scientifica” on particle physics \[Codice Progetto 10.1.6A-FDRPOC-LO-2024-20\]
+- Understanding the concept of signals in particle physics [slides here - in italian](https://drive.google.com/file/d/1XBZ4tSvT3uT6N4rD0rVf9a-Sz4RsugNE/view?usp=sharing)
+- The search for the Higgs Boson at CMS [slides here - in italian](https://drive.google.com/file/d/1Rc1OicQi5kdnBOVUGIg8141bcMBOon0D/view?usp=sharing)
+
+### CMS virtual visits
+Watch [here](https://www.youtube.com/watch?v=7CL6qoN5sZQ&t=7s) the virtual visit for the European Researchers' Night 2025
+
+
 # Conferences
 
 ### \[CMS Internal\] pre-approval talk @ SMP General meeting 
